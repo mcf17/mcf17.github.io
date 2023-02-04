@@ -25,7 +25,7 @@
             <!-- sub-title -->
             {% for category in site.categories %}
               {% if category[0] == child.title %}
-                <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ category | last | size }})</a></li>
+                <a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ category | last | size }})</a> 
               {% endif %}
             {% endfor %}
           {% endfor %}
