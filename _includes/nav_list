@@ -27,12 +27,12 @@
           {% endcomment %}
           {% assign post_cnt = 0 %}
           {% for category in site.categories %}
-            {% if category[0] == child.title  %}
+            {% if category[0] == child.category  %}
                 {% assign post_cnt = category[1].size %}
             {% endif %}
           {% endfor %}
 
-            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ category | last | size }})</a></li>
+            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ post_cnt }})</a></li>
           {% endfor %}
         </ul>
         {% endif %}
