@@ -3,17 +3,16 @@ title: "[포스팅 예시] 이곳에 제목을 입력하세요"
 excerpt: "본문의 주요 내용을 여기에 입력하세요"
 
 categories:
-  - Categories4
+  - Real Analysis
 tags:
   - [tag1, tag2]
 
-permalink: /categories4/post-name-here-4/
 
 toc: true
 toc_sticky: true
 
-date: 2022-07-24
-last_modified_at: 2022-07-24
+date: 2020-05-21
+last_modified_at: 2021-10-09
 ---
 
 ## 🦥 본문

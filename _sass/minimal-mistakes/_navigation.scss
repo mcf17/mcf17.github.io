@@ -29,11 +29,11 @@
 
     @include breakpoint($large) {
       float: right;
-      width: calc(100% - #{$left-sidebar-width-narrow});
+      width: calc(100% - #{$right-sidebar-width-narrow});
     }
 
     @include breakpoint($x-large) {
-      width: calc(100% - #{$left-sidebar-width});
+      width: calc(100% - #{$right-sidebar-width});
     }
   }
 
@@ -75,7 +75,7 @@
       padding: 0.5em 1em;
       font-family: $sans-serif;
       font-size: 14px;
-      font-weight: normal;
+      font-weight: bold;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
@@ -159,8 +159,8 @@
 .page__meta + .pagination,
 .page__share + .pagination,
 .page__comments + .pagination {
-  margin-top: 1.5em;
-  padding-top: 1em;
+  margin-top: 2em;
+  padding-top: 2em;
   border-top: 1px solid $border-color;
 }
 
@@ -177,7 +177,7 @@
   -ms-flex-align: center;
   align-items: center;
   min-height: $nav-height;
-  background: none;
+  background: $background-color;
 
   a {
     display: block;
@@ -200,8 +200,8 @@
       margin-left: 0;
     }
   }
-  
-  img{
+
+  img {
     -webkit-transition: none;
     transition: none;
   }
@@ -339,7 +339,6 @@
      ========================================================================== */
 
 .nav__list {
-  margin-top: 1em;
   margin-bottom: 1.5em;
 
   input[type="checkbox"],
@@ -354,7 +353,7 @@
       padding: 0.5em 2.5em 0.5em 1em;
       color: $gray;
       font-size: $type-size-6;
-      font-weight: normal;
+      font-weight: bold;
       border: 1px solid $light-gray;
       border-radius: $border-radius;
       z-index: 20;
@@ -439,44 +438,19 @@
 }
 
 .nav__list .nav__items {
-  margin: 0 0 2em 0;
-  font-family: $menufont;
-  font-size: 1.5rem;
+  margin: 0;
+  font-size: 1.25rem;
 
   a {
     color: inherit;
-    padding: 0 0 0 0;
-    font-size: ($type-size-6 + $type-size-5) / 2;
-    font-weight: 500;
-
-    &:hover {
-      color: rgba($text-color, 0.8);
-    }
-  }
-
-  /* 2022.01.23 added */
-  ul {
-    margin-left: 1em;
-    padding: 0 0 0 1em;
-    border-left: 3px solid rgba($primary-color, 0.2);
-    li {
-      padding: 0.1em 0 0.1em 0;
-    }
-  }
-
-  hr {
-    margin: 0 1.5em 0.3em 0;
-    border-top: 0px;
   }
 
   .active {
-    font-weight: normal;
+    margin-left: -0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-weight: bold;
   }
-
-  .nav__total {
-    font-size: $type-size-6;
-  }
-
 
   @include breakpoint(max-width $large - 1px) {
     position: relative;
@@ -508,7 +482,7 @@
 
 .nav__title {
   margin: 0;
-  padding: 0.25rem 0.1rem;
+  padding: 0.5rem 0.75rem;
   font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
@@ -516,12 +490,14 @@
 
 .nav__sub-title {
   display: block;
-  margin: 1em 0 0 0;
-  padding: 0 0 0 0.3em;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+  font-family: $sans-serif-narrow;
   font-size: $type-size-6;
-  font-weight: 600;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid $border-color;
 }
-
 
 /*
      Table of contents navigation
@@ -529,19 +505,19 @@
 
 .toc {
   font-family: $sans-serif-narrow;
-  color: $text-color;
-  background-color:$background-color;
+  color: $gray;
+  background-color: $background-color;
+  border: 1px solid $border-color;
   border-radius: $border-radius;
-  padding: 0.5em 0.5em 0.5em 0.5em;
+  -webkit-box-shadow: $box-shadow;
+  box-shadow: $box-shadow;
 
   .nav__title {
-    /* change Right Navigation title 'On this page' color */
-    color: rgb(54, 54, 54);
+    color: #fff;
     font-size: $type-size-6;
-    background: inherit;
+    background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
-    border-bottom: 1.5px solid rgba($primary-color, 0.3);
   }
 
   // Scrollspy marks toc items as .active when they are in focus
@@ -555,23 +531,22 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-5;
+  font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-6;
+    font-size: $type-size-7;
   }
 
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $text-color;
-    font-weight: 400;
+    color: $muted-text-color;
+    font-weight: bold;
     line-height: 1.5;
-    border-bottom: 1.5px solid rgba($primary-color, 0.3);
+    border-bottom: 1px solid $border-color;
 
     &:hover {
-      font-weight: 500;
-      font-size: 100%;
+      color: $text-color;
     }
   }
 

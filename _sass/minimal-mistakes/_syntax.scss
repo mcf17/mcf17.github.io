@@ -6,12 +6,11 @@ div.highlighter-rouge,
 figure.highlight {
   position: relative;
   margin-bottom: 1em;
-  background-color: $code-background-color;
-
+  background: $base00;
   color: $base05;
   font-family: $monospace;
-  font-size: ($type-size-6 + $type-size-5) / 2;
-  line-height: 1.5;
+  font-size: $type-size-6;
+  line-height: 1.8;
   border-radius: $border-radius;
 
   > pre,
