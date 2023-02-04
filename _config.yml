@@ -25,7 +25,7 @@ url                      : "https://mcf17.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mcf17/mcf17.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/favicon.svg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
@@ -98,14 +98,14 @@ social:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : 
+    tracking_id          : "G-17PNSGLJXV"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "J.S. Choi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/favicon.svg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Math, CS, and Finance"
   location         : "Seoul, KR"
   email            :
