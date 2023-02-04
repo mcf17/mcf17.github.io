@@ -6,7 +6,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
     <li>
-      <span class="nav__total"> Total : {{site.posts | size}} </span>
+      <span class="nav__total"> TOTAL : {{site.posts | size}} </span>
     </li> 
     
     {% for nav in navigation %}
