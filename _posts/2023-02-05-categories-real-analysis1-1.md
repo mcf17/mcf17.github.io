@@ -2,6 +2,8 @@
 title: "실해석학의 기초"
 excerpt: "sdsd"
 
+permalink: /real-analysis/real-analysis1-1/
+
 categories:
   - Real Analysis
 tags:
