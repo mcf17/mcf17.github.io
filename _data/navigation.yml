@@ -1,16 +1,28 @@
 # main links
 main:
   - title: "Home"
-    url: /                                     # 블로그 HOME 바로가기 (index.html로 연결됨에 주의)
+    url: https://choiiis.github.io/
 
   - title: "About"
-    url: /about/                               # _pages/about.md 연결
+    url: /about/
 
-  - title: "Categories"
-    url: /categories/                          # 카테고리
+  - title: "GitHub"
+    url: https://github.com/choiiis
 
+  # - title: "Projects"
+  #   url: /projects/
+
+  # - title: "Categories"
+  #   url: /categories/
+
+# sidebar navigation (categories)
+# 2022.02.15 sidebar update : simple ver.
 categories:
-  - title: "Math"
-    children:
-      - title: "Real Analysis"
-        url: /categories/categories1/
+  - title: "Categories1"
+    url: /categories/categories1/
+  - title: "Categories2"
+    url: /categories/categories2/
+  - title: "Categories3"
+    url: /categories/categories3/
+  - title: "Categories4"
+    url: /categories/categories4/
