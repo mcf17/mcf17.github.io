@@ -1,5 +1,5 @@
 ---
-title: "0. 실해석학을 배우는 이유"
+title: "실해석학을 배우는 이유"
 excerpt: "위상수학과의 연계"
 
 categories:

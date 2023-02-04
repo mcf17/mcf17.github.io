@@ -1,6 +1,6 @@
 ---
 title: "1. 실해석학의 기초"
-excerpt: "위상수학과의 연계"
+excerpt: "sdsd"
 
 categories:
   - Real Analysis
