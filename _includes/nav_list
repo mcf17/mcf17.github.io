@@ -5,7 +5,7 @@
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
-  <li> <span style="color:#155050"><b>TOTAL POSTS ({{sum}}) </b></span></li>
+  <li> <span style="color:#155050"><b>TOTAL : {{sum}} </b></span></li>
   <ul class="nav__items">
     {% for nav in navigation %}
       
@@ -27,12 +27,13 @@
           {% endcomment %}
           {% assign post_cnt = 0 %}
           {% for category in site.categories %}
-            {% if category[0] == child.category  %}
+            {% if category[0] == child.title  %}
                 {% assign post_cnt = category[1].size %}
+                <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ post_cnt }})</a></li>
             {% endif %}
           {% endfor %}
 
-            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ post_cnt }})</a></li>
+            <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }} ({{ category | last | size }})</a></li>
           {% endfor %}
         </ul>
         {% endif %}

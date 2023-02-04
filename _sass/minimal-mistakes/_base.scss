@@ -127,8 +127,7 @@ blockquote {
 
 a {
   text-decoration: none;                // 추가된 코드입니다.
-  line-height: 1.5;
-  
+    
   &:focus {
     @extend %tab-focus;
   }
