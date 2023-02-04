@@ -7,7 +7,6 @@ categories:
 tags:
   - [tag1, tag2]
 
-
 toc: true
 toc_sticky: true
 

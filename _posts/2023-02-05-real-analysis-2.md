@@ -2,10 +2,8 @@
 title: "실해석학의 기초"
 excerpt: "sdsd"
 
-permalink: /categories1/real-analysis1-1/
-
 categories:
-  - Categories 1
+  - Real Analysis
 tags:
   - [Math, Real Analysis]
 
