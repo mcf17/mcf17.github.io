@@ -1,12 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /                                     # 블로그 HOME 바로가기 (index.html로 연결됨에 주의)
+
+  - title: "About"
+    url: /about/                               # _pages/about.md 연결
+
+  - title: "Categories"
+    url: /categories/                          # 카테고리
+
+categories:
+  - title: "Math"
+    children:
+      - title: "Real Analysis"
+        url: /categories/real-analysis/
