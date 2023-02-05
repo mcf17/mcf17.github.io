@@ -19,7 +19,7 @@ sidebar:
 
 ## 위상이란?
 
-집합 $Y$의 위상은 다음 세 가지를 만족하는 $X$의 부분집합 족 $\mathcal O$를 의미한다. 
+집합 \\( Y \\) 위상은 다음 세 가지를 만족하는 \\( Y \\)의 부분집합 족 \\( \mathcal O \subseteq \mathcal P(Y) \\)를 의미한다. 
 
 $$
 x \mapsto \int_0^x \sin t dt
