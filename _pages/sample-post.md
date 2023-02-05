@@ -1,14 +1,16 @@
 ---
-title: 위상수학
+title: Sample Post
 layout: single
-permalink: /categories1/
+permalink: /sample-post/
 author_profile: true
 toc: true
 toc_sticky: true
 
 sidebar:
-    nav: "category"
+    nav: "categories"
 ---
 
-{% assign posts = site.categories.['Real Analysis'] %}
+마크다운 테스트 용 페이지입니다. 
+
+{% assign posts = site.categories.['Sample Post'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
