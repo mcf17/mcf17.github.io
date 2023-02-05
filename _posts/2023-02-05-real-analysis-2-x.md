@@ -1,5 +1,5 @@
 ---
-title: "[3] Linear algebra revisited"
+title: "[3] 선형대수학"
 excerpt: "sdsd"
 
 categories:

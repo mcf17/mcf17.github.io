@@ -1,5 +1,5 @@
 ---
-title: "[2] Topology revisited"
+title: "[2] 실수체"
 excerpt: "sdsd"
 
 categories:

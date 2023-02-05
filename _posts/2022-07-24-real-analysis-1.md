@@ -1,5 +1,5 @@
 ---
-title: "[1] Real Analysis Revisited"
+title: "[1] 실수의 성질"
 excerpt: "정의와 성질에 대해 알아봅니다."
 
 categories:
