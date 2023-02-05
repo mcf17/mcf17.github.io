@@ -1,6 +1,6 @@
 ---
-title: "[포스팅 예시] 이곳에 제목을 입력하세요"
-excerpt: "본문의 주요 내용을 여기에 입력하세요"
+title: "2. 실해석학의 기본"
+excerpt: "정의와 성질에 대해 알아봅니다."
 
 categories:
   - Real Analysis
