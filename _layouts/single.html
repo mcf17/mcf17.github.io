@@ -28,6 +28,7 @@ layout: default
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% include page__meta.html %}
+          {% include page__date.html %}
         </header>
       {% endunless %}
 
@@ -49,7 +50,7 @@ layout: default
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
         {% endif %}
         {% include page__taxonomy.html %}
-        {% include page__date.html %}
+        <!-- {% include page__date.html %} -->
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
