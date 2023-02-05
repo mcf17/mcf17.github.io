@@ -1,5 +1,5 @@
 ---
-title: "Real Analysis Revisited"
+title: "[1] Real Analysis Revisited"
 excerpt: "정의와 성질에 대해 알아봅니다."
 
 categories:
