@@ -33,7 +33,7 @@ sidebar:
 - 디스플레이 수식 : 
 
 \\[
-    \int_0^x f(t) dt = \sin x \implies f(t) = -\cos t + (f(0)+1).
+    \int_0^x f(t) dt = \sin x \implies f(t) = \cos t.
     \\]
 
 또 다른 수식
