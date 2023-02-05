@@ -260,12 +260,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      #show_date: true
+      show_date: true
       comments: true
       share: true
       # related: true
       sidebar:
         nav: "categories"
-
-# Date
-date_format : "%Y-%m-%d"
