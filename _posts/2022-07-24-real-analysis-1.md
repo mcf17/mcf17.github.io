@@ -1,5 +1,5 @@
 ---
-title: "2. 실해석학의 기본"
+title: "Real Analysis Revisited"
 excerpt: "정의와 성질에 대해 알아봅니다."
 
 categories:
