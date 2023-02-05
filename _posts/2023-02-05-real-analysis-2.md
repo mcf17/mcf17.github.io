@@ -1,5 +1,5 @@
 ---
-title: " 1. 실해석학의 기초"
+title: "1. OO"
 excerpt: "sdsd"
 
 categories:
