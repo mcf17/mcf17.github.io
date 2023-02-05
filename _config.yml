@@ -259,7 +259,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: # true
+      read_time: true
       #show_date: true
       comments: true
       share: true
