@@ -62,8 +62,14 @@ Right aligned text.
 
 ## 텍스트 블록
 
-**Definition**. 주어진 집합 $X$ 상의 위상은 다음 조건을 만족하는 $X$의 부분집합족 $\mathcal O$이다. 
+{% capture notice-2 %}
+#### Definition.
+
+주어진 집합 $X$ 상의 위상은 다음 조건을 만족하는 $X$의 부분집합족 $\mathcal O$이다. 
 1. $\emptyset, X \in \mathcal O$.
 2. $\mathscr U \subseteq \mathcal O \implies \bigcup \mathscr U \in \mathcal O$,
 3. $U,V \in \mathcal O \implies U\cap V \in \mathcal O$.
-{: .notice--primary}
+{% endcapture %}
+
+<div class="notice">{{ notice-2 | markdownify }}</div>
+
