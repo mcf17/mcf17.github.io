@@ -36,4 +36,28 @@ sidebar:
     \int_0^x f(t) dt = \sin x \implies f(t) = -\cos t + (f(0)+1).
     \\]
 
-## 
+또 다른 수식
+
+$$
+f(x) = 3
+$$
+
+$v+2 = \alpha$. 
+
+## 텍스트 정렬
+
+Left aligned text.
+{: .text-left}
+
+Center aligned text.
+{: .text-center}
+
+Right aligned text.
+{: .text-right}
+
+## 텍스트 색깔 (HTML)
+
+
+
+- 색깔 : <span style="color: #088A68"> 색깔 </span>
+- 색깔 + 굵게 : <span style="color:#088A68"><b>글자색 입히기</b></span>
