@@ -66,4 +66,4 @@ Right aligned text.
 1. $\emptyset, X \in \mathcal O$.
 2. $\mathscr U \subseteq \mathcal O \implies \bigcup \mathscr U \in \mathcal O$,
 3. $U,V \in \mathcal O \implies U\cap V \in \mathcal O$.
-{: .notice-primary}
+{: .notice--primary}
