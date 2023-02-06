@@ -27,7 +27,7 @@
     line-height: inherit;
   }
 
-  @at-root .page__content #{&} h6 {
+  @at-root .page__content #{&} h4 {
     /* using at-root to override .page-content h4 font size*/
     margin-bottom: 0;
     font-size: 1em;
